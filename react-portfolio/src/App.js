@@ -6,10 +6,7 @@ import Contact from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
 import Resume from './Pages/Resume';
 
-function App() {
- const [currentPage, setCurrentPage] = useState
- ('About');
-
+function renderPage(currentPage) {
  if (currentPage === 'About') {
    return <About />
  }
@@ -22,6 +19,29 @@ function App() {
  if (currentPage === 'Resume') {
   return <Resume />
  }
+};
+
+function App () {
+  const [currentPage, setCurrentPage] = useState
+  ('About');
+  return (<div>
+  <nav>
+    <a onClick={() => setCurrentPage('About')}>
+      About
+    </a>
+    <a onClick={() => setCurrentPage('Contact')}>
+      Contact
+    </a>
+    <a onClick={() => setCurrentPage('Portfolio')}>
+      Portfolio
+    </a>
+    <a onClick={() => setCurrentPage('Resume')}>
+      Resume
+    </a>
+  </nav>
+  {renderPage(currentPage)}
+</div>
+  );
 }
 
 export default App;
