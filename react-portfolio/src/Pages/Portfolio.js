@@ -1,6 +1,6 @@
 import React from 'react';
 import project1 from './../images/project1.png'
-
+import './../App.css'
 const Portfolio = props => {
   return (
     <div className='container'>

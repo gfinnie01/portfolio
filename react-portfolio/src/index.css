@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkslategray;
+color: lemonchiffon;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ .card-img-top {
+height: 500px;
+}
+
+ .container {
+ flex-direction: row;
+ flex-wrap: wrap;
+ margin-left: 200px;
+ }
+
+ li {
+  display: flex;
+  justify-content: right;
+  align-content: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  flex-direction: row;
+ }
+
+ .nav ul{
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-left: 2000px;
+  margin-bottom: 50px;
+ }
+
+ .butn1:hover{
+  color: darkslategray;
+  background-color: lemonchiffon;
+}
+
+.butn1 {
+  background-color: darkslategray;
+  border: none;
+  font-size: large;
+  color: lemonchiffon;
 }
