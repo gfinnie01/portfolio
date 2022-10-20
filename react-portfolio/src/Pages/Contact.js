@@ -3,9 +3,20 @@ import React from "react";
 const Contact = (props) => {
   return (
     <div>
-      <div> Contact </div>
+      <h1> Contact </h1>
       <form>
         <div className="mb-3">
+          
+        <label for="exampleFormControlInput1" className="form-label">
+            Name
+          </label>
+          <input
+            type="name"
+            className="form-control"
+            id="your name"
+            placeholder="Name"
+          />
+          
           <label for="exampleFormControlInput1" className="form-label">
             Email address
           </label>
@@ -18,14 +29,19 @@ const Contact = (props) => {
         </div>
         <div className="mb-3">
           <label for="exampleFormControlTextarea1" className="form-label">
-            Example textarea
+            message
           </label>
           <textarea
             className="form-control"
             id="exampleFormControlTextarea1"
             rows="3"
-          ></textarea>
+            ></textarea>
         </div>
+            <div className="mb-3">
+            <button className="btn btn2">
+              submit
+            </button>
+            </div>
       </form>
     </div>
   );

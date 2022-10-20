@@ -43,7 +43,7 @@ height: 500px;
   margin-bottom: 50px;
  }
 
- .butn1:hover{
+ .butn1:hover,.btn:hover{
   color: darkslategray;
   background-color: lemonchiffon;
 }
@@ -54,3 +54,45 @@ height: 500px;
   font-size: large;
   color: lemonchiffon;
 }
+
+ .btn{
+  color: lemonchiffon;
+  background-color: darkslategray;
+ }
+ .card{
+  margin-bottom: 100
+  px;
+ }
+
+
+ .mb-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px;
+  margin-top: 10px;
+  flex-direction: column;
+ }
+
+ form{
+  margin-top: 400px;
+ }
+
+ .btn2{
+  border:none;
+ }
+
+ .about-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .form-label{
+  font-size: large;
+ }
+
+ .form-control{
+  height: 150%;
+ }
