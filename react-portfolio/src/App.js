@@ -11,16 +11,16 @@ function App() {
  ('About');
 
  if (currentPage === 'About') {
-  <About />
+   return <About />
  }
  if (currentPage === 'Contact') {
-  <Contact />
+  return <Contact />
  }
  if (currentPage === 'Portfolio') {
-  <Portfolio />
+  return <Portfolio />
  }
  if (currentPage === 'Resume') {
-  <Resume />
+  return <Resume />
  }
 }
 
