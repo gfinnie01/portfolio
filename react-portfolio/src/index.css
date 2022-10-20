@@ -96,3 +96,14 @@ height: 500px;
  .form-control{
   height: 150%;
  }
+
+ .resume-picture{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 300px;
+ }
+
+ .card{
+margin-bottom: 100px;
+}

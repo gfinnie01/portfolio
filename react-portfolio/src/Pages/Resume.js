@@ -7,7 +7,7 @@ const Resume = (props) => {
     <div>
       <h1>Resume</h1>
   
-      <section>
+      <section className="resume-picture">
       <img src={ resumepic } className="card-img-top" alt="image of a resume" />
 
       </section>
