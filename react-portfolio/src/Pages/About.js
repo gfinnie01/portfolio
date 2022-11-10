@@ -8,9 +8,9 @@ const About = props => {
       <h1> About </h1>
       <div className='about-text'>
         <img src={userpic} className='UserPic' alt='user picture'/>
-    <p>gnkjsdngkjsdgnjksdgnsdngs dsfnsdknfdjsknf fn sdjkfn sdjkfn sdjkf nsdkjfn sdkf nsd
+    <p>Hello, my name is Grant Finnie. 
     </p>
-    <p>kdasgbsdkbgksdjb gksdbgkdsbgkjdsbgsdjkgbsdkgjbdsg</p>
+    <p>Enthusiastic and motivated recent graduate from the UNC-Charlotte Full Stack Coding bootcamp, looking to grow my skills as a front end web developer in an innovative environment. </p>
       </div>
     </div>
   )
